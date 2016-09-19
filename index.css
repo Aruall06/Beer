@@ -1,0 +1,51 @@
+body,html {
+  color: #fff;
+  padding:0;
+  background: url('wallpaper.jpg');
+  background-size: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+p{
+  font-size: 45px;
+}
+
+section{
+  text-align: center;
+  padding-top: 100px;
+}
+.menu{
+  width:100%;
+  position: fixed;
+    top: 0;
+    background: rgba(58, 58, 58, 0.46);
+    /*border-bottom: 2px solid #3e3e3d;*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
+}
+.menu ul, li{
+  display: inline;
+
+  border-left: 2px solid #3e3e3d;
+}
+li:hover {
+    background-color: #983700;
+    font: black;
+}
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    font-size: 30px;
+}
+#section2{
+  display: none;
+}
+#section3{
+  display: none;
+}
